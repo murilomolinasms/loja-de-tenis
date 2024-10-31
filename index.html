@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha da Unidade</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f4f8;
+        }
+
+        header {
+            background-color: #6200ea;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 20px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #6200ea;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .product-row {
+            display: flex;
+            align-items: center;
+        }
+
+        .product-row img {
+            max-width: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .price {
+            font-weight: bold;
+            color: #6200ea;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lojinha da Unidade</h1>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Imagem</th>
+                <th>Produto</th>
+                <th>Preço Unitário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="product-row">
+                    <img src="JORDAN.jpg" alt="Jordan">
+                </td>
+                <td>
+                    <strong>Jordan</strong><br>
+                    Código: 123456<br>
+                    Cor: Vermelho e Branco
+                </td>
+                <td class="price">R$ 800</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="DUNK.jpg" alt="Dunk">
+                </td>
+                <td>
+                    <strong>Dunk</strong><br>
+                    Código: 256048<br>
+                    Cor: Preto e Branco
+                </td>
+                <td class="price">R$ 700</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="AIRFORCE.jpg" alt="Air Force">
+                </td>
+                <td>
+                    <strong>Air Force</strong><br>
+                    Código: 789012<br>
+                    Cor: Branco
+                </td>
+                <td class="price">R$ 600</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="AIRMAX.jpg" alt="Air Max">
+                </td>
+                <td>
+                    <strong>Air Max</strong><br>
+                    Código: 345678<br>
+                    Cor: Preto
+                </td>
+                <td class="price">R$ 650</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="AIRFORCEPRETO.jpg" alt="Air Force Preto">
+                </td>
+                <td>
+                    <strong>Air Force Preto</strong><br>
+                    Código: 901234<br>
+                    Cor: Preto
+                </td>
+                <td class="price">R$ 620</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="chuteira.jpg" alt="Nike Air Zoom">
+                </td>
+                <td>
+                    <strong>Nike Air Zoom</strong><br>
+                    Código: 112233<br>
+                    Cor: Azul e Branco
+                </td>
+                <td class="price">R$ 750</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="ADIDAS1.jpg" alt="Adidas Ultraboost">
+                </td>
+                <td>
+                    <strong>Adidas Ultraboost</strong><br>
+                    Código: 445566<br>
+                    Cor: Preto e Vermelho
+                </td>
+                <td class="price">R$ 900</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="ADIDAS2.jpg" alt="Adidas Superstar">
+                </td>
+                <td>
+                    <strong>Adidas Superstar</strong><br>
+                    Código: 334455<br>
+                    Cor: Branco e Preto
+                </td>
+                <td class="price">R$ 680</td>
+            </tr>
+            <tr>
+                <td class="product-row">
+                    <img src="PUMA2.jpg" alt="Puma Suede">
+                </td>
+                <td>
+                    <strong>Puma Suede</strong><br>
+                    Código: 556677<br>
+                    Cor: Cinza e Branco
+                </td>
+                <td class="price">R$ 600</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
